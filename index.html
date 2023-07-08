@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio - ProgramandoAndo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/principal.css">
+</head>
+<body>
+    <header>
+        <h1>Mi portafolio: ProgramandoAndo MX</h1>
+        <nav>
+            <ul>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="informacion">
+            <h2>Información</h2>
+            <p>Bienvenidos a mi portafolio web. En esta sección podrás encontrar información sobre mí:</p>
+            <ul>
+                <li><strong>Nombre:</strong> El Líder Técnico</li>
+                <li><strong>Edad:</strong> 28 años</li>
+                <li><strong>Ocupación:</strong> Líder Técnico / Programador</li>
+                <li><strong>País:</strong> México</li>
+                <li><strong>Estudios:</strong> Ing. en Sistemas - IPN</li>
+            </ul>
+            <img src="img/avatar.png" class="avatar" width="300">
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ol>
+                <li>Diseño de sitios web</li>
+                <li>Desarrollo de microservicios</li>
+                <li>Administración de Bases de Datos</li>
+                <li>Asesoría en desarrollo de software</li>
+                <li>Auditorías de seguridad</li>
+            </ol>
+            <img src="img/servicios.jpg" width="600">
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto">
+                <label for="asunto">Asunto:</label>
+                <input type="text" required id="asunto" name="asunto">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit" id="enviar">Enviar!</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos reservados &copy; ProgramandoAndo 2023</p>
+        <a href="https://www.facebook.com/ProgramandoAndoMX">
+            <img src="img/fb.png" width="20">
+             ProgramandoAndoMX
+        </a>
+        <a href="https://youtube.com/@ProgramandoAndoMX">
+            <img src="img/youtube.png" width="20">
+             ProgramandoAndoMX
+        </a>
+    </footer>
+
+    <script>
+        const formulario = document.getElementById('formulario-contacto');
+        formulario.addEventListener('submit', function(evento) {
+            evento.preventDefault();
+            const asunto = document.getElementById('asunto');
+            const mensaje = document.getElementById('mensaje');
+            window.location.href = `mailto:programandoando.mx@gmail.com?subject=${asunto.value}&body=${encodeURIComponent(mensaje.value)}`;
+        })
+    </script>
+    
+</body>
+</html>
