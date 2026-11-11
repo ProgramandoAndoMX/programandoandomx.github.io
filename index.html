@@ -3,35 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ProgramandoAndo — apps y desarrollo de software independiente</title>
-<meta name="description" content="Apps para Android y soluciones web y de backend hechas por un desarrollador independiente en México. Recreo Mental y Sheetify.">
-<meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<title>ProgramandoAndo — arquitectura y desarrollo de software</title>
+<meta name="description" content="Estudio independiente de software: arquitectura, microservicios Java, aplicaciones web con React y apps móviles, con estándares de la industria financiera.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111a2e" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://programandoandomx.github.io/">
 <link rel="alternate" hreflang="es" href="https://programandoandomx.github.io/">
 <link rel="alternate" hreflang="en" href="https://programandoandomx.github.io/en/">
 <link rel="alternate" hreflang="x-default" href="https://programandoandomx.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ProgramandoAndo">
-<meta property="og:title" content="ProgramandoAndo — apps y desarrollo de software independiente">
-<meta property="og:description" content="Apps para Android y soluciones web y de backend hechas por un desarrollador independiente en México. Recreo Mental y Sheetify.">
+<meta property="og:title" content="ProgramandoAndo — arquitectura y desarrollo de software">
+<meta property="og:description" content="Estudio independiente de software: arquitectura, microservicios Java, aplicaciones web con React y apps móviles.">
 <meta property="og:url" content="https://programandoandomx.github.io/">
 <meta property="og:image" content="https://programandoandomx.github.io/assets/img/og.png">
 <meta property="og:locale" content="es_MX">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/assets/fonts/ibm-plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
   <div class="container">
-    <a class="wordmark" href="/"><span>&gt;_</span> programando_ando</a>
+    <a class="wordmark" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect class="mark-bg" width="32" height="32" rx="6"/><path class="mark-fg" d="M11 24V8h6.5a5 5 0 0 1 0 10H11"/><rect class="mark-dot" x="20" y="20" width="4" height="4"/></svg>ProgramandoAndo</a>
     <nav class="site-nav" aria-label="Principal">
       <ul>
-        <li><a href="/#apps">Apps</a></li>
         <li><a href="/#servicios">Servicios</a></li>
+        <li><a href="/#apps">Productos</a></li>
+        <li><a href="/about/">Acerca</a></li>
         <li><a href="/#contacto">Contacto</a></li>
         <li><a href="/en/" hreflang="en" lang="en">EN</a></li>
       </ul>
@@ -41,30 +42,42 @@
 <main id="contenido">
   <section class="hero">
     <div class="container">
-      <div>
-        <p class="eyebrow">// desarrollo de software independiente</p>
-        <h1>Apps y software hechos con cuidado.</h1>
-        <p class="lead">Soy desarrollador independiente en México. Creo apps para Android y soluciones web y de backend.</p>
-        <div class="actions">
-          <a class="btn" href="#apps">Ver apps</a>
-          <a class="btn btn-outline" href="#contacto">Contacto</a>
-        </div>
+      <p class="eyebrow">Estudio independiente de software</p>
+      <h1>Arquitectura y desarrollo de software, de la idea a producción.</h1>
+      <p class="lead">Microservicios Java, aplicaciones web con React y apps móviles, diseñados con los estándares de seguridad y confiabilidad de la industria financiera.</p>
+      <div class="actions">
+        <a class="btn" href="#contacto">Hablemos de tu proyecto</a>
+        <a class="btn-link" href="#servicios">Ver servicios <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
       </div>
-      <div class="term" aria-hidden="true">
-        <div><span class="prompt">$</span> apps --list</div>
-        <div>recreo-mental&nbsp;&nbsp;<span class="dim">próximamente</span></div>
-        <div>sheetify&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="dim">en google play</span></div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="servicios" aria-labelledby="h-serv">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Servicios</p>
+        <h2 id="h-serv">Del diseño técnico a producción</h2>
       </div>
+      <ul class="services">
+        <li><h3>Arquitectura de software</h3><p>Diseño de microservicios, revisión de arquitectura y decisiones técnicas que aguantan el crecimiento.</p></li>
+        <li><h3>Backend Java</h3><p>Microservicios con Java y Spring: APIs seguras e integración entre sistemas.</p></li>
+        <li><h3>Frontend React</h3><p>Aplicaciones web con React: mantenibles, rápidas y accesibles.</p></li>
+        <li><h3>Apps móviles</h3><p>Apps Android con Flutter, del diseño a la publicación en Google Play.</p></li>
+      </ul>
     </div>
   </section>
 
   <section class="section" id="apps" aria-labelledby="h-apps">
     <div class="container">
-      <h2 id="h-apps">Apps</h2>
+      <div class="section-head">
+        <p class="eyebrow">Productos</p>
+        <h2 id="h-apps">Apps propias</h2>
+        <p>Productos diseñados, construidos y publicados por el estudio.</p>
+      </div>
       <div class="apps">
-        <article class="app" style="--app-accent:#21acfa">
+        <article class="app">
           <div class="app-head">
-            <img class="app-icon" src="/assets/img/recreo-mental.webp" width="72" height="72" alt="Icono de Recreo Mental: un dinosaurio naranja sobre una carta con signo de interrogación">
+            <img class="app-icon" src="/assets/img/recreo-mental.webp" width="64" height="64" alt="Icono de Recreo Mental: un dinosaurio naranja sobre una carta con signo de interrogación">
             <div>
               <h3>Recreo Mental</h3>
               <span class="badge soon">Próximamente</span>
@@ -77,9 +90,9 @@
             <a class="link" href="https://programandoandomx.github.io/recreo-mental-privacy/">Privacidad</a>
           </div>
         </article>
-        <article class="app" style="--app-accent:#e8ff47">
+        <article class="app">
           <div class="app-head">
-            <img class="app-icon" src="/assets/img/sheetify.webp" width="72" height="72" alt="Icono de Sheetify: una cuadrícula de seis cuadros, uno de ellos verde lima">
+            <img class="app-icon" src="/assets/img/sheetify.webp" width="64" height="64" alt="Icono de Sheetify: una cuadrícula de seis cuadros, uno de ellos verde lima">
             <div>
               <h3>Sheetify</h3>
               <span class="badge">En Google Play</span>
@@ -88,26 +101,33 @@
           <p>Convierte una sola imagen en una hoja lista para imprimir.</p>
           <ul class="tags"><li>Android</li><li>Manualidades</li><li>Impresión</li></ul>
           <div class="app-actions">
-            <a class="btn" href="https://play.google.com/store/apps/details?id=com.programandoandomx.sheetify">Google Play <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.programandoandomx.sheetify">Ver en Google Play <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section" id="servicios" aria-labelledby="h-serv">
+  <section class="section section-alt" id="acerca" aria-labelledby="h-about">
     <div class="container">
-      <h2 id="h-serv">Servicios</h2>
-      <ul class="services"><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><h3>Apps móviles</h3><p>Aplicaciones Android con Flutter, de la idea a Google Play.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><h3>Sitios web</h3><p>Sitios rápidos, accesibles y sin rastreadores.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg><h3>Backend y datos</h3><p>Microservicios y administración de bases de datos.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><h3>Asesoría y seguridad</h3><p>Asesoría en desarrollo de software y auditorías de seguridad.</p></li></ul>
+      <div class="section-head">
+        <p class="eyebrow">Quién está detrás</p>
+        <h2 id="h-about">Didier Gomez, arquitecto de software fullstack</h2>
+        <p>ProgramandoAndo es mi estudio independiente. Llevo más de 10 años construyendo software, con dominios principales en banca y logística y especialidad en microservicios Java y frontend React.</p>
+        <p><a class="btn-link" href="/about/">Conoce mi trayectoria <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></p>
+      </div>
     </div>
   </section>
 
-  <section class="section contact" id="contacto" aria-labelledby="h-contact">
+  <section class="contact" id="contacto" aria-labelledby="h-contact">
     <div class="container">
-      <h2 id="h-contact">Contacto</h2>
-      <p>¿Tienes un proyecto? Escríbeme.</p>
+      <p class="eyebrow">Contacto</p>
+      <h2 id="h-contact">¿Tienes un sistema que diseñar, escalar o modernizar?</h2>
+      <p>Cuéntame el contexto y vemos cómo puedo ayudar.</p>
       <a class="btn" href="mailto:programandoando.mx@gmail.com">programandoando.mx@gmail.com</a>
-      <p class="social"><a href="https://www.facebook.com/ProgramandoAndoMX" rel="noopener">Facebook</a></p>
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/didier-gomez-lemus-841390198/" rel="noopener">LinkedIn</a></li>
+      </ul>
     </div>
   </section>
 </main>
@@ -116,7 +136,7 @@
     <p>© 2026 ProgramandoAndo · Sin cookies ni rastreadores.</p>
     <ul>
       <li><a href="https://programandoandomx.github.io/recreo-mental-privacy/">Privacidad de Recreo Mental</a></li>
-      <li><a href="/en/" hreflang="en" lang="en">EN</a></li>
+      <li><a href="/en/" hreflang="en" lang="en">English</a></li>
     </ul>
   </div>
 </footer>
