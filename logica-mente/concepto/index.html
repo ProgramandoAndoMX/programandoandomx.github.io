@@ -129,6 +129,9 @@ footer.note{text-align:center;color:var(--muted);font-size:14px;padding:20px 16p
 .kids.active{background:rgba(255,138,61,.2);outline:3px dashed var(--accent)}
 .kids .hint{font-size:14px;color:var(--muted);font-weight:500;padding:4px 2px}
 .controls{display:flex;gap:8px;flex-wrap:wrap}
+/* run controls float under the header, right below the goal, so they never scroll away */
+.toolbar{position:sticky;top:var(--hdr,68px);z-index:15;display:flex;gap:8px;background:var(--bg);padding:8px 0;margin:0 0 10px}
+.stage{scroll-margin-top:calc(var(--hdr,68px) + var(--tb,70px) + 8px)}
 .tier{display:inline-flex;background:#fff;border:3px solid var(--edge);border-radius:999px;padding:3px}
 .tier button{padding:8px 16px;border-radius:999px;font-weight:700;min-height:44px}
 .tier button[aria-pressed=true]{background:var(--ink);color:#fff}
@@ -197,6 +200,7 @@ h3.sec{margin:22px 0 4px;font-size:19px}
 .toast.on{opacity:1;transform:translateX(-50%)}
 
 @media (max-width:900px){
+  .toolbar .btn{flex:1 1 0;min-width:0;min-height:48px;padding:8px 4px;font-size:15px;gap:4px;white-space:nowrap}
   .ruta,.lvl,.tg{grid-template-columns:1fr}
   .side{position:static;order:-1}
   .kpis{grid-template-columns:repeat(2,1fr)}
@@ -246,6 +250,11 @@ h3.sec{margin:22px 0 4px;font-size:19px}
       <div class="goal"><span id="goalText"></span><button class="sound" id="speak" aria-label="Escuchar">🔊</button></div>
       <div class="tier" id="tierLevel" role="group" aria-label="Nivel"><button data-t="3" aria-pressed="false">3°</button><button data-t="4" aria-pressed="true">4°</button></div>
     </div>
+    <div class="toolbar">
+      <button class="btn go" id="run">▶ Ejecutar</button>
+      <button class="btn ghost" id="stepBtn">⏭ Paso a paso</button>
+      <button class="btn ghost" id="reset">↺ Reiniciar</button>
+    </div>
     <div class="lvl">
       <div class="stage">
         <div class="boards" id="boards"></div>
@@ -258,11 +267,6 @@ h3.sec{margin:22px 0 4px;font-size:19px}
           <div class="program" id="program"></div>
           <div style="margin-top:8px;display:none" id="exitLoopWrap"><button class="btn small ghost" id="exitLoop">⤴ Salir del ciclo</button></div>
         </div>
-        <div class="controls">
-          <button class="btn go" id="run">▶ Ejecutar</button>
-          <button class="btn ghost" id="stepBtn">⏭ Paso a paso</button>
-          <button class="btn ghost" id="reset">↺ Reiniciar</button>
-        </div>
       </aside>
     </div>
   </section>
@@ -273,6 +277,10 @@ h3.sec{margin:22px 0 4px;font-size:19px}
       <h2>Dibuja con ciclos</h2>
       <div class="goal"><span>Dibuja una figura que cierre.</span><button class="sound" id="speakT" aria-label="Escuchar">🔊</button></div>
       <div class="tier" id="tierT" role="group" aria-label="Nivel"><button data-t="3" aria-pressed="false">3°</button><button data-t="4" aria-pressed="true">4°</button></div>
+    </div>
+    <div class="toolbar">
+      <button class="btn go" id="tRun">▶ Dibujar</button>
+      <button class="btn ghost" id="tClear">↺ Borrar</button>
     </div>
     <div class="tg">
       <div class="stage">
@@ -293,8 +301,6 @@ h3.sec{margin:22px 0 4px;font-size:19px}
           <div style="margin-top:10px;font-weight:600" id="turnSum"></div>
         </div>
         <div class="controls">
-          <button class="btn go" id="tRun">▶ Dibujar</button>
-          <button class="btn ghost" id="tClear">↺ Borrar</button>
           <button class="btn accent" id="tSend">📤 Enviar a mi maestra/o</button>
         </div>
         <div class="card"><h4>Prueba</h4>
@@ -478,6 +484,16 @@ const SVG_STAR='<svg viewBox="0 0 64 64"><path d="M32 6l7.6 16.2 17.7 2.1-13.1 1
 /* ---------- tabs ---------- */
 const TABS=[['ruta','Ruta'],['secuencias','Secuencias'],['condiciones','Condiciones'],['tortuga','Tortuga'],['unirse','Unirse'],['docente','Docente']];
 let tab='ruta';
+function syncSticky(){
+  const r=document.documentElement.style, tb=$('.view.on .toolbar');
+  r.setProperty('--hdr',$('header.top').offsetHeight+'px'); if(tb) r.setProperty('--tb',tb.offsetHeight+'px');
+}
+/* bring the board into view when a run starts (the controls stay put, the board comes to the user) */
+function showStage(){
+  const s=$('.view.on .stage'); if(!s) return;
+  const top=$('header.top').offsetHeight+($('.view.on .toolbar')?.offsetHeight||0)+8, r=s.getBoundingClientRect();
+  if(r.top<top-1||r.bottom>innerHeight) s.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});
+}
 function go(name){
   tab=name; stopRun();
   const view = (name==='secuencias'||name==='condiciones')?'level':name;
@@ -486,7 +502,7 @@ function go(name){
   document.body.dataset.view=name;
   if(view==='level') loadLevel(name);
   if(view==='tortuga') tInit();
-  window.scrollTo({top:0});
+  window.scrollTo({top:0}); syncSticky();
 }
 TABS.forEach(([k,l])=>$('nav.tabs').append(h('button',{role:'tab','data-tab':k,onclick:()=>go(k)},l)));
 
@@ -674,11 +690,12 @@ function confetti(el){
   for(let i=0;i<26;i++) c.append(h('i',{style:`left:${Math.random()*100}%;background:${col[i%6]};animation-delay:${Math.random()*.4}s;transform:rotate(${Math.random()*90}deg)`}));
   el.append(c); setTimeout(()=>c.remove(),2200);
 }
-$('#run').onclick=()=>{ resetRun(); if(!prepare()) return; setFeedback('info','Ejecutando…',IMG.front); runT=setInterval(()=>{ if(!stepOnce()) stopRun(); },420); };
-$('#stepBtn').onclick=()=>{ stopRun(); if(!traces.length){ if(!prepare()) return; setFeedback('info','Paso a paso: toca de nuevo.',IMG.front); } stepOnce(); };
+$('#run').onclick=()=>{ resetRun(); showStage(); if(!prepare()) return; setFeedback('info','Ejecutando…',IMG.front); runT=setInterval(()=>{ if(!stepOnce()) stopRun(); },420); };
+$('#stepBtn').onclick=()=>{ showStage(); stopRun(); if(!traces.length){ if(!prepare()) return; setFeedback('info','Paso a paso: toca de nuevo.',IMG.front); } stepOnce(); };
 $('#reset').onclick=()=>resetRun();
 $('#tierLevel').onclick=e=>{ const b=e.target.closest('button'); if(!b) return; $$('#tierLevel button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); toast(b.dataset.t==='3'?'Nivel 3°: programas más cortos y giros de 1/4.':'Nivel 4°: programas más largos y más giros.'); };
-window.addEventListener('resize',()=>{ if(tab==='secuencias'||tab==='condiciones'){ const keep=traces.length; renderBoards(); if(!keep) return; resetRun(); }});
+let lastW=innerWidth; window.addEventListener('load',syncSticky);
+window.addEventListener('resize',()=>{ syncSticky(); if(innerWidth===lastW) return; lastW=innerWidth; if(tab==='secuencias'||tab==='condiciones'){ const keep=traces.length; renderBoards(); if(!keep) return; resetRun(); }});
 
 /* ---------- Tortuga ---------- */
 const T={n:4,k:4,tier:4,anim:null,drawn:null};
@@ -716,6 +733,7 @@ function tPoints(){
   return raw.map(p=>({x:p.x+ox,y:p.y+oy}));
 }
 $('#tRun').onclick=()=>{
+  showStage();
   tReset(); const pts=tPoints(); const path=$('#tpath'); let seg=0,t0=null; const dur=520;
   tFeedback('info','Dibujando…',IMG.front);
   placeTurtle(pts[0]);
