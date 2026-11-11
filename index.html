@@ -1,84 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio - ProgramandoAndo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos/principal.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProgramandoAndo — apps y desarrollo de software independiente</title>
+<meta name="description" content="Apps para Android y soluciones web y de backend hechas por un desarrollador independiente en México. Recreo Mental y Sheetify.">
+<meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<link rel="canonical" href="https://programandoandomx.github.io/">
+<link rel="alternate" hreflang="es" href="https://programandoandomx.github.io/">
+<link rel="alternate" hreflang="en" href="https://programandoandomx.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://programandoandomx.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ProgramandoAndo">
+<meta property="og:title" content="ProgramandoAndo — apps y desarrollo de software independiente">
+<meta property="og:description" content="Apps para Android y soluciones web y de backend hechas por un desarrollador independiente en México. Recreo Mental y Sheetify.">
+<meta property="og:url" content="https://programandoandomx.github.io/">
+<meta property="og:image" content="https://programandoandomx.github.io/assets/img/og.png">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-    <header>
-        <h1>Mi portafolio: ProgramandoAndo MX</h1>
-        <nav>
-            <ul>
-                <li><a href="#informacion">Información</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="informacion">
-            <h2>Información</h2>
-            <p>Bienvenidos a mi portafolio web. En esta sección podrás encontrar información sobre mí:</p>
-            <ul>
-                <li><strong>Nombre:</strong> El Líder Técnico</li>
-                <li><strong>Edad:</strong> 28 años</li>
-                <li><strong>Ocupación:</strong> Líder Técnico / Programador</li>
-                <li><strong>País:</strong> México</li>
-                <li><strong>Estudios:</strong> Ing. en Sistemas - IPN</li>
-            </ul>
-            <img src="img/avatar.png" class="avatar" width="300">
-        </section>
-        <section id="servicios">
-            <h2>Servicios</h2>
-            <ol>
-                <li>Diseño de sitios web</li>
-                <li>Desarrollo de microservicios</li>
-                <li>Administración de Bases de Datos</li>
-                <li>Asesoría en desarrollo de software</li>
-                <li>Auditorías de seguridad</li>
-            </ol>
-            <img src="img/servicios.jpg" width="400">
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form id="formulario-contacto">
-                <label for="asunto">Asunto:</label>
-                <input type="text" required id="asunto" name="asunto">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="container">
+    <a class="wordmark" href="/"><span>&gt;_</span> programando_ando</a>
+    <nav class="site-nav" aria-label="Principal">
+      <ul>
+        <li><a href="/#apps">Apps</a></li>
+        <li><a href="/#servicios">Servicios</a></li>
+        <li><a href="/#contacto">Contacto</a></li>
+        <li><a href="/en/" hreflang="en" lang="en">EN</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+  <section class="hero">
+    <div class="container">
+      <div>
+        <p class="eyebrow">// desarrollo de software independiente</p>
+        <h1>Apps y software hechos con cuidado.</h1>
+        <p class="lead">Soy desarrollador independiente en México. Creo apps para Android y soluciones web y de backend.</p>
+        <div class="actions">
+          <a class="btn" href="#apps">Ver apps</a>
+          <a class="btn btn-outline" href="#contacto">Contacto</a>
+        </div>
+      </div>
+      <div class="term" aria-hidden="true">
+        <div><span class="prompt">$</span> apps --list</div>
+        <div>recreo-mental&nbsp;&nbsp;<span class="dim">próximamente</span></div>
+        <div>sheetify&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="dim">en google play</span></div>
+      </div>
+    </div>
+  </section>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"></textarea>
-                <button type="submit" id="enviar">Enviar!</button>
-            </form>
-        </section>
-    </main>
+  <section class="section" id="apps" aria-labelledby="h-apps">
+    <div class="container">
+      <h2 id="h-apps">Apps</h2>
+      <div class="apps">
+        <article class="app" style="--app-accent:#21acfa">
+          <div class="app-head">
+            <img class="app-icon" src="/assets/img/recreo-mental.webp" width="72" height="72" alt="Icono de Recreo Mental: un dinosaurio naranja sobre una carta con signo de interrogación">
+            <div>
+              <h3>Recreo Mental</h3>
+              <span class="badge soon">Próximamente</span>
+            </div>
+          </div>
+          <p>Mini juegos de memoria, rompecabezas y secuencias para niños.</p>
+          <ul class="tags"><li>Android</li><li>Niños</li><li>Juegos</li></ul>
+          <div class="app-actions">
+            <span class="note">Disponible pronto en Google Play</span>
+            <a class="link" href="https://programandoandomx.github.io/recreo-mental-privacy/">Privacidad</a>
+          </div>
+        </article>
+        <article class="app" style="--app-accent:#e8ff47">
+          <div class="app-head">
+            <img class="app-icon" src="/assets/img/sheetify.webp" width="72" height="72" alt="Icono de Sheetify: una cuadrícula de seis cuadros, uno de ellos verde lima">
+            <div>
+              <h3>Sheetify</h3>
+              <span class="badge">En Google Play</span>
+            </div>
+          </div>
+          <p>Convierte una sola imagen en una hoja lista para imprimir.</p>
+          <ul class="tags"><li>Android</li><li>Manualidades</li><li>Impresión</li></ul>
+          <div class="app-actions">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.programandoandomx.sheetify">Google Play <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>Derechos reservados &copy; ProgramandoAndo 2023</p>
-        <a href="https://www.facebook.com/ProgramandoAndoMX">
-            <img src="img/fb.png" width="20">
-             ProgramandoAndoMX
-        </a>
-        <br/>
-        <a href="https://youtube.com/@ProgramandoAndoMX">
-            <img src="img/youtube.png" width="20">
-             ProgramandoAndoMX
-        </a>
-    </footer>
+  <section class="section" id="servicios" aria-labelledby="h-serv">
+    <div class="container">
+      <h2 id="h-serv">Servicios</h2>
+      <ul class="services"><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><h3>Apps móviles</h3><p>Aplicaciones Android con Flutter, de la idea a Google Play.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><h3>Sitios web</h3><p>Sitios rápidos, accesibles y sin rastreadores.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg><h3>Backend y datos</h3><p>Microservicios y administración de bases de datos.</p></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><h3>Asesoría y seguridad</h3><p>Asesoría en desarrollo de software y auditorías de seguridad.</p></li></ul>
+    </div>
+  </section>
 
-    <script>
-        const formulario = document.getElementById('formulario-contacto');
-        formulario.addEventListener('submit', function(evento) {
-            evento.preventDefault();
-            const asunto = document.getElementById('asunto');
-            const mensaje = document.getElementById('mensaje');
-            window.location.href = `mailto:programandoando.mx@gmail.com?subject=${asunto.value}&body=${encodeURIComponent(mensaje.value)}`;
-        })
-    </script>
-    
+  <section class="section contact" id="contacto" aria-labelledby="h-contact">
+    <div class="container">
+      <h2 id="h-contact">Contacto</h2>
+      <p>¿Tienes un proyecto? Escríbeme.</p>
+      <a class="btn" href="mailto:programandoando.mx@gmail.com">programandoando.mx@gmail.com</a>
+      <p class="social"><a href="https://www.facebook.com/ProgramandoAndoMX" rel="noopener">Facebook</a></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 ProgramandoAndo · Sin cookies ni rastreadores.</p>
+    <ul>
+      <li><a href="https://programandoandomx.github.io/recreo-mental-privacy/">Privacidad de Recreo Mental</a></li>
+      <li><a href="/en/" hreflang="en" lang="en">EN</a></li>
+    </ul>
+  </div>
+</footer>
 </body>
 </html>

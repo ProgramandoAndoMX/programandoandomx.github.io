@@ -1,0 +1,6 @@
+Fonts self-hosted on this site (Latin subsets, woff2), both under the SIL Open Font License 1.1 (https://openfontlicense.org):
+
+- JetBrains Mono, copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+- IBM Plex Sans, copyright IBM Corp. (https://github.com/IBM/plex)
+
+Files come from the Fontsource packages @fontsource/jetbrains-mono and @fontsource/ibm-plex-sans.
