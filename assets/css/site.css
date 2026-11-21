@@ -588,6 +588,29 @@ p {
   color: var(--on-band);
 }
 
+/* Legal pages (privacy policies) */
+.legal h2 {
+  margin-bottom: var(--s4);
+}
+.legal h3 {
+  margin: var(--s6) 0 var(--s2);
+}
+.legal p,
+.legal ul {
+  margin: 0 0 var(--s2);
+}
+.legal ul {
+  max-width: 65ch;
+  padding-left: 1.25em;
+}
+.legal li + li {
+  margin-top: var(--s1);
+}
+.legal code {
+  font-size: 0.9em;
+  overflow-wrap: anywhere;
+}
+
 /* 404 */
 .notfound {
   padding-block: var(--section-pad);
