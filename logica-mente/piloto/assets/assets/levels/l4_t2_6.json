@@ -1,0 +1,76 @@
+{
+  "schema": 2,
+  "id": "l4_t2_6",
+  "mechanic": "tablero",
+  "type": "arregla",
+  "world": "chinampas",
+  "tier": "t2",
+  "stars": {
+    "three": 4,
+    "two": 6
+  },
+  "narration": {
+    "instruction": "level_l4_3_instruction"
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 7,
+      "rows": 5
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "goals": [
+      {
+        "x": 5,
+        "y": 0
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "repeat"
+    ],
+    "maxRepeat": 10,
+    "given": {
+      "blocks": [
+        {
+          "op": "repeat",
+          "n": 5,
+          "body": [
+            {
+              "op": "right"
+            }
+          ]
+        },
+        {
+          "op": "repeat",
+          "n": 3,
+          "body": [
+            {
+              "op": "up"
+            }
+          ]
+        }
+      ],
+      "editable": [
+        0,
+        1
+      ]
+    }
+  }
+}

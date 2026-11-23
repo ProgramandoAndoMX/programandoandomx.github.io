@@ -1,0 +1,57 @@
+{
+  "schema": 2,
+  "id": "l2_t1_6",
+  "mechanic": "tablero",
+  "type": "sobra_un_paso",
+  "world": "taller",
+  "tier": "t1",
+  "stars": {
+    "three": 3,
+    "two": 5
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 4,
+      "rows": 4
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 3
+      }
+    ],
+    "goals": [
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0,
+    "given": {
+      "blocks": [
+        {
+          "op": "up"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "up"
+        },
+        {
+          "op": "right"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": 2,
+  "id": "l4_t2_4",
+  "mechanic": "tablero",
+  "type": "cuenta",
+  "world": "chinampas",
+  "tier": "t2",
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 7,
+      "rows": 5
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "goals": [
+      {
+        "x": 6,
+        "y": 4
+      }
+    ],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "repeat"
+    ],
+    "maxRepeat": 10,
+    "count": {
+      "walk": [
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        }
+      ],
+      "options": [
+        5,
+        6,
+        7
+      ]
+    }
+  }
+}

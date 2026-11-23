@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "id": "l3_t2_5",
+  "mechanic": "ritmo",
+  "type": "que_sigue",
+  "world": "huerto",
+  "tier": "t2",
+  "config": {
+    "pads": [
+      "drum",
+      "bell",
+      "maracas"
+    ],
+    "unit": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "shown": 6
+  }
+}

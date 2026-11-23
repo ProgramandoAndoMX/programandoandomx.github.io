@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "id": "l3_t2_4",
+  "mechanic": "ritmo",
+  "type": "repite",
+  "world": "huerto",
+  "tier": "t2",
+  "config": {
+    "pads": [
+      "drum",
+      "bell",
+      "maracas"
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      2,
+      1,
+      0
+    ]
+  }
+}

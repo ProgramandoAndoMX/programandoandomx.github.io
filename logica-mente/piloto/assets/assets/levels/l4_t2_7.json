@@ -1,0 +1,94 @@
+{
+  "schema": 2,
+  "id": "l4_t2_7",
+  "mechanic": "tablero",
+  "type": "construye",
+  "world": "chinampas",
+  "tier": "t2",
+  "stars": {
+    "three": 3,
+    "two": 5
+  },
+  "narration": {
+    "instruction": "level_l4_1_instruction"
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 6,
+      "rows": 6
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 5
+      }
+    ],
+    "goals": [
+      {
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 3
+      },
+      {
+        "x": 5,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "repeat"
+    ],
+    "maxRepeat": 10
+  }
+}

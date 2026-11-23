@@ -1,0 +1,84 @@
+{
+  "schema": 2,
+  "id": "l2_t2_7",
+  "mechanic": "tablero",
+  "type": "arregla",
+  "world": "taller",
+  "tier": "t2",
+  "stars": {
+    "three": 7,
+    "two": 9
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 5,
+      "rows": 5
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "goals": [
+      {
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 2
+      }
+    ],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0,
+    "given": {
+      "blocks": [
+        {
+          "op": "up"
+        },
+        {
+          "op": "up"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "down"
+        },
+        {
+          "op": "right"
+        },
+        {
+          "op": "right"
+        }
+      ],
+      "editable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+}
