@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "chinampas_fish": {
+   "frame": {
+    "h": 402,
+    "w": 252,
+    "x": 851,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 402,
+    "w": 252
+   },
+   "spriteSourceSize": {
+    "h": 402,
+    "w": 252,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_goal": {
+   "frame": {
+    "h": 380,
+    "w": 445,
+    "x": 1105,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 380,
+    "w": 445
+   },
+   "spriteSourceSize": {
+    "h": 380,
+    "w": 445,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_lily": {
+   "frame": {
+    "h": 359,
+    "w": 408,
+    "x": 2,
+    "y": 421
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 359,
+    "w": 408
+   },
+   "spriteSourceSize": {
+    "h": 359,
+    "w": 408,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_log": {
+   "frame": {
+    "h": 408,
+    "w": 443,
+    "x": 406,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 408,
+    "w": 443
+   },
+   "spriteSourceSize": {
+    "h": 408,
+    "w": 443,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_reeds": {
+   "frame": {
+    "h": 417,
+    "w": 402,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 417,
+    "w": 402
+   },
+   "spriteSourceSize": {
+    "h": 417,
+    "w": 402,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_rock": {
+   "frame": {
+    "h": 377,
+    "w": 443,
+    "x": 1552,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 377,
+    "w": 443
+   },
+   "spriteSourceSize": {
+    "h": 377,
+    "w": 443,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_tile_dark": {
+   "frame": {
+    "h": 179,
+    "w": 260,
+    "x": 674,
+    "y": 421
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 179,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 179,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "chinampas_tile_light": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 412,
+    "y": 421
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "chinampas@2x.webp",
+  "scale": "2",
+  "size": {
+   "h": 782,
+   "w": 1997
+  }
+ }
+}

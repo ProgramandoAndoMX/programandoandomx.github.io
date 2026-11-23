@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "feria_barrel": {
+   "frame": {
+    "h": 230,
+    "w": 208,
+    "x": 194,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 230,
+    "w": 208
+   },
+   "spriteSourceSize": {
+    "h": 230,
+    "w": 208,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_cottoncandy": {
+   "frame": {
+    "h": 219,
+    "w": 162,
+    "x": 600,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 219,
+    "w": 162
+   },
+   "spriteSourceSize": {
+    "h": 219,
+    "w": 162,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_cottoncart": {
+   "frame": {
+    "h": 231,
+    "w": 190,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 231,
+    "w": 190
+   },
+   "spriteSourceSize": {
+    "h": 231,
+    "w": 190,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_cups": {
+   "frame": {
+    "h": 226,
+    "w": 194,
+    "x": 404,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 226,
+    "w": 194
+   },
+   "spriteSourceSize": {
+    "h": 226,
+    "w": 194,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_goal": {
+   "frame": {
+    "h": 184,
+    "w": 172,
+    "x": 916,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 184,
+    "w": 172
+   },
+   "spriteSourceSize": {
+    "h": 184,
+    "w": 172,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_pinwheel": {
+   "frame": {
+    "h": 206,
+    "w": 150,
+    "x": 764,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 206,
+    "w": 150
+   },
+   "spriteSourceSize": {
+    "h": 206,
+    "w": 150,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_tile_dark": {
+   "frame": {
+    "h": 132,
+    "w": 132,
+    "x": 1090,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 132,
+    "w": 132
+   },
+   "spriteSourceSize": {
+    "h": 132,
+    "w": 132,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "feria_tile_light": {
+   "frame": {
+    "h": 132,
+    "w": 132,
+    "x": 1224,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 132,
+    "w": 132
+   },
+   "spriteSourceSize": {
+    "h": 132,
+    "w": 132,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "feria@1x.webp",
+  "scale": "1",
+  "size": {
+   "h": 235,
+   "w": 1358
+  }
+ }
+}

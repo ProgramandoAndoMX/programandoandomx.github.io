@@ -1,0 +1,19 @@
+{
+  "schema": 2,
+  "id": "l3_t1_0",
+  "mechanic": "ritmo",
+  "type": "repite",
+  "world": "huerto",
+  "tier": "t1",
+  "config": {
+    "pads": [
+      "drum",
+      "bell"
+    ],
+    "sequence": [
+      0,
+      1,
+      1
+    ]
+  }
+}

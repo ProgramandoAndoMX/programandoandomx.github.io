@@ -1,0 +1,37 @@
+{
+  "schema": 2,
+  "id": "l1_t1_0",
+  "mechanic": "tablero",
+  "type": "directo",
+  "world": "plaza",
+  "tier": "t1",
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 4,
+      "rows": 4
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 3
+      }
+    ],
+    "goals": [
+      {
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0
+  }
+}

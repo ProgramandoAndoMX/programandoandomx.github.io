@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "robot_back": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_front": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 263,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_front_blink": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 524,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_front_happy": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 785,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_front_oops": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 1046,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_front_think": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 1307,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_side": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 1568,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "robot_side_happy": {
+   "frame": {
+    "h": 449,
+    "w": 259,
+    "x": 2,
+    "y": 453
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 449,
+    "w": 259
+   },
+   "spriteSourceSize": {
+    "h": 449,
+    "w": 259,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "robot@2x.webp",
+  "scale": "2",
+  "size": {
+   "h": 904,
+   "w": 1829
+  }
+ }
+}

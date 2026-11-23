@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "taller_gear": {
+   "frame": {
+    "h": 426,
+    "w": 412,
+    "x": 788,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 426,
+    "w": 412
+   },
+   "spriteSourceSize": {
+    "h": 426,
+    "w": 412,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_goal": {
+   "frame": {
+    "h": 416,
+    "w": 364,
+    "x": 1472,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 416,
+    "w": 364
+   },
+   "spriteSourceSize": {
+    "h": 416,
+    "w": 364,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_paint": {
+   "frame": {
+    "h": 430,
+    "w": 359,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 430,
+    "w": 359
+   },
+   "spriteSourceSize": {
+    "h": 430,
+    "w": 359,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_planks": {
+   "frame": {
+    "h": 374,
+    "w": 466,
+    "x": 2,
+    "y": 434
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 374,
+    "w": 466
+   },
+   "spriteSourceSize": {
+    "h": 374,
+    "w": 466,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_screw": {
+   "frame": {
+    "h": 421,
+    "w": 268,
+    "x": 1202,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 421,
+    "w": 268
+   },
+   "spriteSourceSize": {
+    "h": 421,
+    "w": 268,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_tile_dark": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 470,
+    "y": 434
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_tile_light": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 732,
+    "y": 434
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "taller_toolbox": {
+   "frame": {
+    "h": 426,
+    "w": 423,
+    "x": 363,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 426,
+    "w": 423
+   },
+   "spriteSourceSize": {
+    "h": 426,
+    "w": 423,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "taller@2x.webp",
+  "scale": "2",
+  "size": {
+   "h": 810,
+   "w": 1838
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+  "schema": 2,
+  "id": "l5_t2_3",
+  "mechanic": "dibujo",
+  "type": "dibuja",
+  "world": "feria",
+  "tier": "t2",
+  "stars": {
+    "three": 3,
+    "two": 5
+  },
+  "narration": {
+    "instruction": "level_l5_3_instruction"
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 6,
+      "rows": 6
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 5
+      }
+    ],
+    "goals": [],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [
+      {
+        "x": 0,
+        "y": 5
+      },
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "repeat"
+    ],
+    "maxRepeat": 10,
+    "pen": {
+      "on": true,
+      "color": "coral"
+    }
+  }
+}

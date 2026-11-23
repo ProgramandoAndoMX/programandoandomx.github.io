@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "path": "fase3",
+  "units": [
+    {
+      "id": "u_flechas",
+      "lessons": [
+        {
+          "id": "l1",
+          "world": "plaza",
+          "audience": "core",
+          "concept": "secuencia",
+          "narration": {
+            "intro": "lesson_l1_intro"
+          },
+          "tutorials": {
+            "t2": [
+              "l1_t2_g1",
+              "l1_t2_g2"
+            ],
+            "t1": [
+              "l1_t1_g1",
+              "l1_t1_g2"
+            ]
+          },
+          "levels": {
+            "t2": [
+              "l1_t2_0",
+              "l1_t2_1",
+              "l1_t2_2",
+              "l1_t2_3"
+            ],
+            "t1": [
+              "l1_t1_0",
+              "l1_t1_1",
+              "l1_t1_2",
+              "l1_t1_3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_error",
+      "lessons": [
+        {
+          "id": "l2",
+          "world": "taller",
+          "audience": "core",
+          "concept": "depuracion",
+          "narration": {
+            "intro": "lesson_l2_intro"
+          },
+          "tutorials": {
+            "t2": [
+              "l2_t2_g1",
+              "l2_t2_g2"
+            ],
+            "t1": [
+              "l2_t1_g1",
+              "l2_t1_g2"
+            ]
+          },
+          "levels": {
+            "t2": [
+              "l2_t2_0",
+              "l2_t2_1",
+              "l2_t2_2",
+              "l2_t2_3"
+            ],
+            "t1": [
+              "l2_t1_0",
+              "l2_t1_1",
+              "l2_t1_2",
+              "l2_t1_3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_patrones",
+      "lessons": [
+        {
+          "id": "l3",
+          "world": "huerto",
+          "audience": "core",
+          "concept": "patrones",
+          "narration": {
+            "intro": "lesson_l3_intro"
+          },
+          "tutorials": {
+            "t2": [
+              "l3_t2_g1"
+            ],
+            "t1": [
+              "l3_t1_g1"
+            ]
+          },
+          "levels": {
+            "t2": [
+              "l3_t2_0",
+              "l3_t2_1",
+              "l3_t2_2",
+              "l3_t2_3"
+            ],
+            "t1": [
+              "l3_t1_0",
+              "l3_t1_1",
+              "l3_t1_2",
+              "l3_t1_3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_repite",
+      "lessons": [
+        {
+          "id": "l4",
+          "world": "chinampas",
+          "audience": "core",
+          "concept": "ciclos",
+          "narration": {
+            "intro": "lesson_l4_intro"
+          },
+          "tutorials": {
+            "t2": [
+              "l4_t2_g1",
+              "l4_t2_g2"
+            ],
+            "t1": [
+              "l4_t1_g1",
+              "l4_t1_g2"
+            ]
+          },
+          "levels": {
+            "t2": [
+              "l4_t2_0",
+              "l4_t2_1",
+              "l4_t2_2",
+              "l4_t2_3"
+            ],
+            "t1": [
+              "l4_t1_0",
+              "l4_t1_1",
+              "l4_t1_2",
+              "l4_t1_3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_figuras",
+      "lessons": [
+        {
+          "id": "l5",
+          "world": "feria",
+          "audience": "core",
+          "concept": "dibujo",
+          "narration": {
+            "intro": "lesson_l5_intro"
+          },
+          "tutorials": {
+            "t2": [
+              "l5_t2_g1"
+            ],
+            "t1": [
+              "l5_t1_g1"
+            ]
+          },
+          "levels": {
+            "t2": [
+              "l5_t2_0",
+              "l5_t2_1",
+              "l5_t2_2",
+              "l5_t2_3"
+            ],
+            "t1": [
+              "l5_t1_0",
+              "l5_t1_1",
+              "l5_t1_2",
+              "l5_t1_3"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

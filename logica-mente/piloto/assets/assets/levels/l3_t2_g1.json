@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "id": "l3_t2_g1",
+  "mechanic": "ritmo",
+  "type": "repite",
+  "world": "huerto",
+  "tier": "t2",
+  "narration": {
+    "instruction": "level_l3_g1_instruction"
+  },
+  "guide": {},
+  "config": {
+    "pads": [
+      "drum",
+      "bell"
+    ],
+    "sequence": [
+      0,
+      1,
+      0
+    ]
+  }
+}

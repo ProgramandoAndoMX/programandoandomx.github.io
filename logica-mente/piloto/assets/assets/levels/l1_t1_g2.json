@@ -1,0 +1,50 @@
+{
+  "schema": 2,
+  "id": "l1_t1_g2",
+  "mechanic": "tablero",
+  "type": "construye",
+  "world": "plaza",
+  "tier": "t1",
+  "narration": {
+    "instruction": "level_l1_g2_instruction"
+  },
+  "guide": {
+    "program": [
+      {
+        "op": "right"
+      },
+      {
+        "op": "up"
+      }
+    ]
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 4,
+      "rows": 3
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 2
+      }
+    ],
+    "goals": [
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0
+  }
+}

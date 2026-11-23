@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "plaza_balloon": {
+   "frame": {
+    "h": 446,
+    "w": 278,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 446,
+    "w": 278
+   },
+   "spriteSourceSize": {
+    "h": 446,
+    "w": 278,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_bench": {
+   "frame": {
+    "h": 438,
+    "w": 442,
+    "x": 282,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 438,
+    "w": 442
+   },
+   "spriteSourceSize": {
+    "h": 438,
+    "w": 442,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_goal": {
+   "frame": {
+    "h": 351,
+    "w": 211,
+    "x": 1423,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 351,
+    "w": 211
+   },
+   "spriteSourceSize": {
+    "h": 351,
+    "w": 211,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_lantern": {
+   "frame": {
+    "h": 422,
+    "w": 284,
+    "x": 726,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 422,
+    "w": 284
+   },
+   "spriteSourceSize": {
+    "h": 422,
+    "w": 284,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_planter": {
+   "frame": {
+    "h": 396,
+    "w": 409,
+    "x": 1012,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 396,
+    "w": 409
+   },
+   "spriteSourceSize": {
+    "h": 396,
+    "w": 409,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_rock": {
+   "frame": {
+    "h": 326,
+    "w": 386,
+    "x": 1636,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 326,
+    "w": 386
+   },
+   "spriteSourceSize": {
+    "h": 326,
+    "w": 386,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_tile_dark": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 2,
+    "y": 450
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "plaza_tile_light": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 264,
+    "y": 450
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "plaza@2x.webp",
+  "scale": "2",
+  "size": {
+   "h": 712,
+   "w": 2024
+  }
+ }
+}

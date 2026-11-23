@@ -1,0 +1,51 @@
+{
+  "schema": 2,
+  "id": "sample_arrows_4",
+  "mechanic": "tablero",
+  "type": "estrellas",
+  "world": "plaza",
+  "tier": "t2",
+  "stars": {
+    "three": 3,
+    "two": 5
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 5,
+      "rows": 5
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "goals": [
+      {
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 3
+      }
+    ],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "repeat"
+    ],
+    "maxRepeat": 5
+  }
+}

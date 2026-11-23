@@ -1,0 +1,114 @@
+{
+ "frames": {
+  "confetti": {
+   "frame": {
+    "h": 198,
+    "w": 236,
+    "x": 414,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 198,
+    "w": 236
+   },
+   "spriteSourceSize": {
+    "h": 198,
+    "w": 236,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "dust_puff": {
+   "frame": {
+    "h": 174,
+    "w": 181,
+    "x": 836,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 174,
+    "w": 181
+   },
+   "spriteSourceSize": {
+    "h": 174,
+    "w": 181,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "paint_splash": {
+   "frame": {
+    "h": 206,
+    "w": 211,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 206,
+    "w": 211
+   },
+   "spriteSourceSize": {
+    "h": 206,
+    "w": 211,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "sparkle": {
+   "frame": {
+    "h": 202,
+    "w": 197,
+    "x": 215,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 202,
+    "w": 197
+   },
+   "spriteSourceSize": {
+    "h": 202,
+    "w": 197,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "star": {
+   "frame": {
+    "h": 198,
+    "w": 182,
+    "x": 652,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 198,
+    "w": 182
+   },
+   "spriteSourceSize": {
+    "h": 198,
+    "w": 182,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "shared@1x.webp",
+  "scale": "1",
+  "size": {
+   "h": 210,
+   "w": 1019
+  }
+ }
+}

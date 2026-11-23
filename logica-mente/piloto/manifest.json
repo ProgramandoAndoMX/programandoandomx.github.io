@@ -1,0 +1,38 @@
+{
+    "id": "./",
+    "name": "Logica-mente",
+    "short_name": "Logica-mente",
+    "lang": "es-MX",
+    "start_url": ".",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#6A3DF0",
+    "theme_color": "#6A3DF0",
+    "description": "Juego para aprender lógica y programación paso a paso.",
+    "orientation": "landscape",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

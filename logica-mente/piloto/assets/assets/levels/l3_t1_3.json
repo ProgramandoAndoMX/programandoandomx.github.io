@@ -1,0 +1,65 @@
+{
+  "schema": 2,
+  "id": "l3_t1_3",
+  "mechanic": "tablero",
+  "type": "construye",
+  "world": "huerto",
+  "tier": "t1",
+  "stars": {
+    "three": 5,
+    "two": 7
+  },
+  "narration": {
+    "instruction": "level_l3_3_instruction"
+  },
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 4,
+      "rows": 4
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 3
+      }
+    ],
+    "goals": [
+      {
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 2
+      }
+    ],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0
+  }
+}

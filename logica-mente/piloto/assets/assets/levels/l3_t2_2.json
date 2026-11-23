@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "id": "l3_t2_2",
+  "mechanic": "ritmo",
+  "type": "completa",
+  "world": "huerto",
+  "tier": "t2",
+  "config": {
+    "pads": [
+      "drum",
+      "bell",
+      "maracas"
+    ],
+    "unit": [
+      0,
+      0,
+      1
+    ],
+    "length": 7,
+    "gap": 4
+  }
+}

@@ -1,0 +1,54 @@
+{
+ "frame_paper": {
+  "image": "assets/art/shared/frame/frame_paper@256.webp",
+  "insets": [
+   42.3,
+   52.2,
+   52.4,
+   64.7
+  ],
+  "size": [
+   172,
+   213
+  ]
+ },
+ "frame_wood_sign": {
+  "image": "assets/art/shared/frame/frame_wood_sign@256.webp",
+  "insets": [
+   50.0,
+   41.4,
+   50.0,
+   41.4
+  ],
+  "size": [
+   244,
+   120
+  ]
+ },
+ "frame_wood_tray": {
+  "image": "assets/art/shared/frame/frame_wood_tray@256.webp",
+  "insets": [
+   54.4,
+   40.4,
+   54.4,
+   40.4
+  ],
+  "size": [
+   242,
+   117
+  ]
+ },
+ "ribbon": {
+  "image": "assets/art/shared/ribbon/ribbon@512.webp",
+  "insets": [
+   155.7,
+   2.0,
+   155.7,
+   2.0
+  ],
+  "size": [
+   456,
+   159
+  ]
+ }
+}

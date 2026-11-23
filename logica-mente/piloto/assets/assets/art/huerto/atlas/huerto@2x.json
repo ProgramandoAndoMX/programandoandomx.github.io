@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "huerto_barrow": {
+   "frame": {
+    "h": 368,
+    "w": 436,
+    "x": 2,
+    "y": 448
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 368,
+    "w": 436
+   },
+   "spriteSourceSize": {
+    "h": 368,
+    "w": 436,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_bud": {
+   "frame": {
+    "h": 390,
+    "w": 290,
+    "x": 1490,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 390,
+    "w": 290
+   },
+   "spriteSourceSize": {
+    "h": 390,
+    "w": 290,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_can": {
+   "frame": {
+    "h": 390,
+    "w": 429,
+    "x": 1059,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 390,
+    "w": 429
+   },
+   "spriteSourceSize": {
+    "h": 390,
+    "w": 429,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_goal": {
+   "frame": {
+    "h": 444,
+    "w": 276,
+    "x": 2,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 444,
+    "w": 276
+   },
+   "spriteSourceSize": {
+    "h": 444,
+    "w": 276,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_pumpkin": {
+   "frame": {
+    "h": 402,
+    "w": 413,
+    "x": 644,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 402,
+    "w": 413
+   },
+   "spriteSourceSize": {
+    "h": 402,
+    "w": 413,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_seeds": {
+   "frame": {
+    "h": 431,
+    "w": 362,
+    "x": 280,
+    "y": 2
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 431,
+    "w": 362
+   },
+   "spriteSourceSize": {
+    "h": 431,
+    "w": 362,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_tile_dark": {
+   "frame": {
+    "h": 257,
+    "w": 260,
+    "x": 702,
+    "y": 448
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 257,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 257,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  },
+  "huerto_tile_light": {
+   "frame": {
+    "h": 260,
+    "w": 260,
+    "x": 440,
+    "y": 448
+   },
+   "rotated": false,
+   "sourceSize": {
+    "h": 260,
+    "w": 260
+   },
+   "spriteSourceSize": {
+    "h": 260,
+    "w": 260,
+    "x": 0,
+    "y": 0
+   },
+   "trimmed": false
+  }
+ },
+ "meta": {
+  "app": "logica-mente tool/assets",
+  "format": "RGBA8888",
+  "image": "huerto@2x.webp",
+  "scale": "2",
+  "size": {
+   "h": 818,
+   "w": 1782
+  }
+ }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": 2,
+  "id": "l2_t1_g2",
+  "mechanic": "tablero",
+  "type": "arregla",
+  "world": "taller",
+  "tier": "t1",
+  "narration": {
+    "instruction": "level_l2_g2_instruction"
+  },
+  "guide": {},
+  "config": {
+    "movement": "arrows",
+    "board": {
+      "cols": 4,
+      "rows": 3
+    },
+    "characters": [
+      {
+        "x": 0,
+        "y": 1
+      }
+    ],
+    "goals": [
+      {
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "obstacles": [],
+    "collectibles": [],
+    "paintTargets": [],
+    "allowedBlocks": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "maxRepeat": 0,
+    "given": {
+      "blocks": [
+        {
+          "op": "right"
+        },
+        {
+          "op": "down"
+        },
+        {
+          "op": "right"
+        }
+      ],
+      "editable": [
+        1
+      ]
+    }
+  }
+}
